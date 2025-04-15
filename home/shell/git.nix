@@ -6,8 +6,8 @@
     git = {
       package = pkgs.gitAndTools.gitFull;
       enable = true;
-      userName = "FULLNAME";
-      userEmail = "EMAIL";
+      userName = "Janne Sangi";
+      userEmail = "janne.sangi@tii.ae";
 
       aliases = {
         checkout-pr = "!pr() { git fetch origin pull/$1/head:pr-$1; git checkout pr-$1; }; pr";
@@ -41,7 +41,7 @@
         init.defaultBranch = "main";
         pull.rebase = "true";
         push.default = "current";
-        github.user = "GITHUB_USERNAME";
+        github.user = "jannesa007";
       };
     };
 

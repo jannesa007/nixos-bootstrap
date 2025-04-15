@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: Apache-2.0
 _: {
   users.users = {
-    FIRST_NAME = {
+    jsa = {
       isNormalUser = true;
-      home = "/home/FIRST_NAME";
-      description = "FULLNAME";
+      home = "/home/jsa";
+      description = "Janne Sangi";
       openssh.authorizedKeys.keys = [
       ];
       extraGroups = [
